@@ -3,6 +3,7 @@
 .rr__faq-2 .accordion-button::after, .rr__faq .accordion-button::after {
   border-radius: 500px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 
 .latest-services-2__item, .our-portfolio-2__item, .our-portfolio-2__item__content-media, .our-portfolio-2__item__wrapper, .our-portfolio__item__wrapper, .pricing-2__item, .testimonial-3__slider-dot .swiper-pagination-bullet, .pricing-action-3__item, .rr__faq-2 .accordion-item, .pricing-action-2__item, .latest-work__slider-dot .swiper-pagination-bullet, .latest-work__item-hover, .specialist-doctor__item, .doctor__slider-dot .swiper-pagination-bullet, .client-testimonial__slider-dot .swiper-pagination-bullet, .service-4__item, .service-4__item-icon img, .our-projects__item__content::before, .our-projects__item__content-icon, .our-projects__item__content-text, .rr__faq .accordion-item, .team__item-content-share, .pricing__item, .service__item-icon img, .brand__thumb img, .footer-5__link ul li a i, .footer-4__link ul li a i, .footer-4__post ul li a i, .footer-2__link ul li a i, .blog-5__item-meta-list li i, .blog-5__item-meta-list li span, .sidebar__widget-service a i, .mean-container .mean-nav ul li > a.mean-expand i, .main-menu ul li.has-dropdown > a::after, .main-menu ul li .submenu, .main-menu ul li .submenu li a::before, .main-menu ul li .mega-menu, .main-menu ul li .mega-menu li ul li a::before, .search__input .search-input-field ~ .search-focus-border, .search__input .search-input-field:focus ~ .search-focus-border, .offcanvas__overlay, .offcanvas__navigation button svg, .rr-btn .btn-wrap .text-one, .rr-btn .btn-wrap .text-two, .body__overlay, a,
 .btn,
@@ -127,8 +128,11 @@ svg path {
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  
 }
-
+p , b , a , h1 , h2 ,h3 ,h4 {
+  font-family: "Inknut Antiqua", serif !important; 
+}
 html {
   font-size: 10px;
 }
