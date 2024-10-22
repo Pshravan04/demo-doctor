@@ -700,39 +700,38 @@
                         <h2 class="section__title text-capitalize mb-0 title-animation">We Love to See You Smile</h2>
                     </div>
 
-                    <form  class="appointment-3__form">
+                    <form class="appointment-3__form" action="sendEmail.php" method="POST">
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="appointment-3__form-input">
-                                    <input name="name" id="name" type="text" placeholder="Your name">
+                                    <input name="name" id="name" type="text" placeholder="Your name" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="appointment-3__form-input">
-                                    <input name="email" id="email" type="text" placeholder="Your email">
+                                    <input name="email" id="email" type="email" placeholder="Your email" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="appointment-3__form-input">
-                                    <input name="phone" id="phone" type="text" placeholder="Phone Number">
+                                    <input name="phone" id="phone" type="text" placeholder="Phone Number" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="appointment-3__form-select">
-                                    <select name="doctor" id="doctor" style="display: none;">
-                                        <option>Choose a Option</option>
-                                        <option>Option-1</option>
-                                        <option>Option-2</option>
-                                        <option>Option-13</option>
+                                    <select name="doctor" id="doctor" required>
+                                        <option value="">Choose an Option</option>
+                                        <option value="Option-1">Option-1</option>
+                                        <option value="Option-2">Option-2</option>
+                                        <option value="Option-3">Option-3</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-sm-12">
                                 <div class="appointment-3__form-input">
-                                    <textarea name="textarea" id="textarea" placeholder="Message here.."></textarea>
+                                    <textarea name="message" id="textarea" placeholder="Message here.." required></textarea>
                                 </div>
                             </div>
-
                             <div class="col-12">
                                 <button type="submit" class="rr-btn rr-btn__green mt-0">
                                     <span class="btn-wrap">
@@ -743,6 +742,7 @@
                             </div>
                         </div>
                     </form>
+                    
                 </div>
             </div>
         </div>
